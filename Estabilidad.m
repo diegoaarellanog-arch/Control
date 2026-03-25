@@ -1,0 +1,5 @@
+s = tf('s')
+G = 1/(s^3+s^2+2*s+24)
+pzmap(G)
+pole(G)
+step(G)
